@@ -1,0 +1,15 @@
+  h1{
+            color: aqua;
+            background-color: antiquewhite;
+        }
+
+        p{
+            background-color: blueviolet;
+        }
+
+        button{
+            background-color: rgb(197, 28, 28);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
