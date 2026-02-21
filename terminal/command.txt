@@ -1,0 +1,61 @@
+//basic git
+
+| Command      | Explanation           |
+| ------------ | --------------------- |
+| `pwd`        | Current directory     |
+| `ls`         | List files            |
+| `cd dir`     | Go to directory       |
+| `mkdir dir`  | Make folder           |
+| `rmdir dir`  | Remove folder         |
+| `rm -r dir`  | Delete folder & files |
+| `touch file` | Create file           |
+| `cat file`   | Show file content     |
+| `cp src dst` | Copy file             |
+| `mv src dst` | Move / rename         |
+
+//Nevigation Command and other
+
+| Command     | Explanation               |
+| ----------- | ------------------------- |
+| `pwd`       | Show current directory    |
+| `ls`        | List files/folders        |
+| `ls -l`     | Detailed list             |
+| `ls -a`     | Show hidden files         |
+| `cd dir`    | Enter directory           |
+| `cd ..`     | Go up one level           |
+| `cd ~`      | Go home directory         |
+| `cd -`      | Go previous directory     |
+| `mkdir dir` | Create folder             |
+| `rmdir dir` | Delete empty folder       |
+| `rm -r dir` | Delete folder recursively |
+
+
+| Flag | Meaning                   |
+| ---- | ------------------------- |
+| `-l` | Long listing (details)    |
+| `-a` | Include hidden files      |
+| `-h` | Human-readable sizes      |
+| `-R` | Recursive (subfolders)    |
+| `-t` | Sort by modification time |
+| `-S` | Sort by size              |
+
+
+| Command | Flag   | Meaning            |
+| ------- | ------ | ------------------ |
+| `head`  | `-n N` | First N lines      |
+| `tail`  | `-n N` | Last N lines       |
+| `tail`  | `-f`   | Follow file (live) |
+| `cat`   | `-n`   | Show line numbers  |
+
+| Flag | Meaning                  |
+| ---- | ------------------------ |
+| `-r` | Recursive (folders)      |
+| `-f` | Force delete (no prompt) |
+
+| Flag      | Meaning                  |
+| --------- | ------------------------ |
+| `-o name` | Output executable name   |
+| `-Wall`   | Show all warnings        |
+| `-Werror` | Treat warnings as errors |
+| `-g`      | Include debug info       |
+| `-O2`     | Optimization level 2     |
