@@ -1,0 +1,49 @@
+git clone <repo_url>       # clone repo
+cd repo
+git checkout -b feature1   # create & switch branch
+git add .                  # stage all
+git commit -m "feat: new feature"  # commit
+git push origin feature1   # push to GitHub
+
+
+1️⃣ Git: Initialization & Configuration
+Command	Explanation
+git init	Initialize new Git repo
+git clone <url>	Copy remote repo locally
+git config --global user.name "Name"	Set username
+git config --global user.email "email"	Set email
+
+
+2️⃣ Git: Basic Workflow
+Command	Explanation
+git status	Show current changes
+git add <file>	Stage file for commit
+git add .	Stage all changes
+git commit -m "msg"	Commit staged changes
+git log	Show commit history
+git diff	Show changes before commit
+
+3️⃣ Git: Branching
+Command	Explanation
+git branch	List branches
+git branch <name>	Create new branch
+git checkout <branch>	Switch branch
+git checkout -b <branch>	Create + switch branch
+git merge <branch>	Merge branch into current
+
+
+4️⃣ Git: Remote / GitHub
+Command	Explanation
+git remote -v	Show remote URLs
+git remote add origin <url>	Add remote repo
+git push -u origin <branch>	Push branch first time
+git push	Push changes
+git pull	Pull latest changes
+
+
+5️⃣ Git: Undo & Reset
+Command	Explanation
+git checkout -- <file>	Discard changes in file
+git reset <file>	Unstage file
+git revert <commit>	Undo commit (new commit)
+git reset --hard <commit>	Reset to commit (danger!)
